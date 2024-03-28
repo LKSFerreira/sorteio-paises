@@ -1,0 +1,83 @@
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+
+}
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window > div {
+  width: 1400px;
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  background: rgb(41, 38, 38);
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.modal-close {
+  color: #ffffff;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: black;
+}
+
+.modal-window > div {
+  border-radius: 1rem;
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.bandeira {
+  width: 100px; /* ou o tamanho que você desejar */
+  height: 50px; /* ou o tamanho que você desejar */
+  position: absolute;
+  animation: deslizar 1s linear forwards; /* ajuste a duração conforme necessário */
+}
+
+@keyframes deslizar {
+  from {
+    right: 0px; /* começa fora do modal */
+  }
+  to {
+    right: 1320px; /* termina na posição final dentro do modal */
+  }
+}
+
+.grupo-bandeiras {
+  display: flex;
+  flex-wrap: wrap;
+}

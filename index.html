@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OlimpiAtos</title>
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <script src="script/carrossel.js" type="module" defer></script>
+    <script src="script.js" type="module" defer></script>
+    <script src="script/sorteioPaises.js" type="module" defer></script>
+    <script src="script/modal.js" type="module" defer></script>
+</head>
+
+<body>
+    <div class="container-button">
+        <a class="ancor-button" href="#open-modal0">Grupo 1</a>
+        <a class="ancor-button" href="#open-modal1">Grupo 2</a>
+        <a class="ancor-button" href="#open-modal2">Grupo 3</a>
+        <a class="ancor-button" href="#open-modal3">Grupo 4</a>
+    </div>
+
+
+    <div class="scroller" data-direction="left" data-speed="fast">
+        <div class="scroller__inner"></div>
+    </div>
+
+    <div id="open-modal" class="modal-window">
+        <div>
+            <a href="#" title="Close" class="modal-close">Fechar</a>
+            <div id="bandeiras-container"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
