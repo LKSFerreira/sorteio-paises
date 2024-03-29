@@ -35,28 +35,24 @@ ancorButton.forEach((elemento, index) => {
 
 async function animacaoBandeiras(index, containerBandeiras) {
   const grupos = await ordemDeApresentacao;
-
   const grupo = grupos[index];
 
   for (let i = 0; i < grupo.length; i++) {
     const pais = grupo[i];
 
-    console.log(`País ${i + 1}:`, pais);
-
     const bandeirasAnimadas = Object.values(paisesJson).filter((nomeDoPais) =>
       pais.includes(nomeDoPais.pais)
     );
 
-    // grupoContainer.classList.add("grupo-bandeiras");
-    // grupoContainer.style.top = `${i  * 100}px`; // Ajuste conforme necessário
-
     const img = document.createElement("img");
-    img.src = bandeirasAnimadas[0].img;
 
+    img.src = bandeirasAnimadas[0].img;
     img.classList.add("bandeira");
-    img.style.animationDelay = `${i * 0.5}s`; // Ajuste o delay conforme necessário
-    containerBandeiras.appendChild(img);
 
     containerBandeiras.appendChild(img);
   }
+
+  const modal = document.getElementById(`open-modal${index}`);
+  const modalClose = modal.querySelector(".modal-close");
+
 }

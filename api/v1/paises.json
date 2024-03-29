@@ -883,7 +883,7 @@
   },
   "147": {
     "pais": "Mônaco",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/19px-Flag_of_Monaco.svg.png",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/150px-Flag_of_Monaco.svg.png",
     "ddi": 377,
     "continente": "Europa"
   },
@@ -925,7 +925,7 @@
   },
   "154": {
     "pais": "Nepal",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/12px-Flag_of_Nepal.svg.png",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/150px-Flag_of_Nepal.svg.png",
     "ddi": 977,
     "continente": "Ásia"
   },
@@ -937,7 +937,7 @@
   },
   "156": {
     "pais": "Níger",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/18px-Flag_of_Niger.svg.png",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/150px-Flag_of_Niger.svg.png",
     "ddi": 227,
     "continente": "África"
   },
@@ -1165,7 +1165,7 @@
   },
   "194": {
     "pais": "São Tomé e Príncipe",
-    "img": "https://en.wikipedia.org/wiki/File:Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
     "ddi": 239,
     "continente": "África"
   },
@@ -1249,7 +1249,7 @@
   },
   "208": {
     "pais": "Suíça",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/150px-Flag_of_Switzerland.svg.png",
     "ddi": 41,
     "continente": "Europa"
   },
