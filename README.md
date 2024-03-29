@@ -19,7 +19,7 @@ grupo muito poucos países, o algoritmo evitará que tal discrepância aconteça
 
 [Clique aqui para acessar o deploy do desafio](https://lksferreira.github.io/sorteio-paises/)
 
-## Localhost:
+## Localhost
 
 ### Pré-requisitos
 
