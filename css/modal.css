@@ -31,6 +31,7 @@
 }
 
 .modal-window>div>div {
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1.35rem;
@@ -49,7 +50,7 @@
 .modal-close {
   color: #ffffff;
   line-height: 50px;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
   position: absolute;
   right: 0;
@@ -73,7 +74,16 @@
   margin-bottom: 15px;
 }
 
+@keyframes bandeira-animacao {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
 .bandeira {
   width: 120px;
   height: 80px;
+  animation-name: bandeira-animacao;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
 }

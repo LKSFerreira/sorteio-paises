@@ -22,18 +22,18 @@ ancorButton.forEach((elemento, index) => {
     modal.classList.add("modal-window");
     modal.innerHTML = `
       <div>
-        <a href="#" title="Close" class="modal-close">Fechar</a>
+        <a href="#" title="Fechar" class="modal-close">[ X ]</a>
         <div id="bandeiras-container"></div>
       </div>
     `;
     document.body.appendChild(modal);
 
     const containerBandeiras = modal.querySelector("#bandeiras-container");
-    animacaoBandeiras(index, containerBandeiras);
+    carregarBandeirasNoModal(index, containerBandeiras);
   });
 });
 
-async function animacaoBandeiras(index, containerBandeiras) {
+async function carregarBandeirasNoModal(index, containerBandeiras) {
   const grupos = await ordemDeApresentacao;
   const grupo = grupos[index];
 
@@ -48,11 +48,9 @@ async function animacaoBandeiras(index, containerBandeiras) {
 
     img.src = bandeirasAnimadas[0].img;
     img.classList.add("bandeira");
+    img.style.animation = `bandeira-animacao 1s ease-in-out ${i * 0.2}s backwards`;
 
     containerBandeiras.appendChild(img);
   }
-
-  const modal = document.getElementById(`open-modal${index}`);
-  const modalClose = modal.querySelector(".modal-close");
 
 }
