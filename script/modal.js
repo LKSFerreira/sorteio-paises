@@ -47,8 +47,10 @@ async function carregarBandeirasNoModal(index, containerBandeiras) {
     const img = document.createElement("img");
 
     img.src = bandeirasAnimadas[0].img;
+    img.alt = bandeirasAnimadas[0].pais;
+    img.title = bandeirasAnimadas[0].pais;
     img.classList.add("bandeira");
-    img.style.animation = `bandeira-animacao 1s ease-in-out ${i * 0.2}s backwards`;
+    img.style.animation = `bandeira-animacao 1s ease-in-out ${i * 0.15}s backwards`;
 
     containerBandeiras.appendChild(img);
   }
