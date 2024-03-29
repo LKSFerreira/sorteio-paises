@@ -11,7 +11,7 @@ ele retornará ao primeiro grupo, repetindo o algoritmo.
 
 # 2 - Quantidade em cada grupo
 - Para que o primeiro grupo não possua mais da metade dos países distribuídos e o último
-grupo muito poucos, o algoritmo evitará que tal discrepância aconteça.
+grupo muito poucos países, o algoritmo evitará que tal discrepância aconteça.
 
 ```
 
