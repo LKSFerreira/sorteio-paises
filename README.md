@@ -1,6 +1,6 @@
 # OlimpiAtos
 
-Projeto desafio Atos com referência às Olimpíadas de Paris 2023
+Projeto desafio Atos com referência às Olimpíadas de Paris 2024
 
 ```md
 Devido à complexidade do desafio, foi necessário assumir 2 questões em aberto:
